@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Blog preview card component</title>
+  </head>
+  <body>
+    <main>
+      <article class="blog-preview">
+        <figure class="blog-preview__figure">
+          <img
+            class="blog-preview__illustration"
+            src="./assets/images/illustration-article.svg"
+            alt="Illustration for the article"
+          />
+        </figure>
+        <div class="blog-preview__content">
+          <span class="blog-preview__category">Learning</span>
+          <p class="blog-preview__publish-date">
+            Published <time datetime="2023-12-21">21 Dec 2023</time>
+          </p>
+          <header class="blog-preview__header">
+            <h2 class="blog-preview__heading">
+              <a
+                class="blog-preview__heading-link"
+                href="https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd"
+                >HTML & CSS foundations</a
+              >
+            </h2>
+          </header>
+          <p class="blog-preview__paragraph">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+        <footer class="blog-preview__footer">
+          <img
+            class="blog-preview__author-portrait"
+            src="./assets/images/image-avatar.webp"
+            alt="author portrait"
+          />
+          <p class="blog-preview__author-name">Greg Hooper</p>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
